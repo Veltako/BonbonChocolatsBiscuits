@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #fbf7f9 !important;
+  color: #f83492 !important;
+}
+
+.card-top > p {
+  height: 10rem;
+  margin-bottom: 0;
+}
+
+.card {
+  margin-top: 3rem !important;
+}
+
+#pagination > li {
+  font-size: larger;
+}
+
+/* #pagination > li:first-child {
+  font-size: xx-large;
+}
+
+#pagination > li:last-child {
+  font-size: xx-large;
+} */
+
+#pagination > li {
+  border: solid 1px black;
+  padding: 0.75rem;
+}
+
+#pagination > li > a {
+  text-decoration: none;
+  color: inherit;
+}
