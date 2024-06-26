@@ -1,0 +1,9 @@
+footer {
+  background-color: #f83492;
+  color: #fbf7f9;
+  font-family: "Poppins", sans-serif !important;
+}
+
+footer > div {
+  height: 2rem;
+}
