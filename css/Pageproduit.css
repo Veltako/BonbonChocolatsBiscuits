@@ -9,6 +9,7 @@ body{
 .mainproduit{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     max-width: fit-content;
 }
 
@@ -30,7 +31,7 @@ body{
 }
 
 .img-fluid{
-max-width: 100%;
+    max-width: 100%;
 }
 
 .card-text{
@@ -74,7 +75,20 @@ max-width: 100%;
 
 .recommandations{
     display:flex;
-    justify-content: space-evenly
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.cardproduitplus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid #f83492;
+    background-color: #FFF;
+    border-radius: 2%; 
+    margin: 10px; 
+    padding: 5px;  
+    max-width: initial;
 }
 
 .card-img-top{
