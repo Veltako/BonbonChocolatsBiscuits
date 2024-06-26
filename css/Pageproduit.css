@@ -9,42 +9,60 @@ body{
 .mainproduit{
     display: flex;
     justify-content: center;
-    padding: 150px;
+    flex-direction: column;
+    max-width: fit-content;
 }
 
 .ficheproduit{
-    border-color: #fde0ef;
+    border: solid #f83492;
     background-color: #FFF;
     border-radius: 2%;
     display: flex;
     flex-direction: row;
+    max-width: 50%;
+    line-height: initial;
 
 }
 
+.imgproduit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .img-fluid{
-max-width: 100%;
+    max-width: 100%;
 }
 
 .card-text{
     display:flex;
     flex-direction:column;
     justify-content: center;
+    max-width: fit-content;
+    font-size: small;
 }
 
 .card-header{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     flex-direction:row;
 }
 
+.card-description{
+    padding: 10px 0;
+}
 .quantite{
     display: flex;
     justify-content:center;
     flex-direction:row;
+    font-size: smaller;
+    margin-bottom: 10px;
+    
 }
 
 .inputquantite{
  border: solid thin #f83492;
+ margin-bottom: 10px;
 }
 
 .btn{
@@ -52,4 +70,46 @@ max-width: 100%;
     border: none;
     font-family: 'Poppins';
     color: #fbf7f9;
+    margin-bottom: 10px;
 }
+
+.recommandations{
+    display:flex;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.cardproduitplus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid #f83492;
+    background-color: #FFF;
+    border-radius: 2%; 
+    margin: 10px; 
+    padding: 5px;  
+    max-width: initial;
+}
+
+.card-img-top{
+ max-width: 50px;
+}
+
+.card-titleproduits{
+ font-weight: 500;
+}
+
+.card-textproduits{
+    line-height: initial;
+}
+
+.btnensavoirplus{
+    background-color: #f83492;
+    border: none;
+    font-family: 'Poppins';
+    color: #fbf7f9;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
