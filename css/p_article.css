@@ -2,4 +2,22 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color: #fbf7f9;
+    color: #f83492;
+}
+article{
+    max-width: fit-content;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.body-article{
+    width: 100%;
+    border: solid thin pink;
+    text-align: center;
+    margin: 15px;
+}
+img{
+    width: 200px;
 }
