@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+
   }
    a  {
     text-align: center;
@@ -18,7 +18,7 @@ body {
     text-decoration: none;
   }
   form {
-    margin-top: 30px;
+    margin-top: 5px;
     text-align: center;
     max-width: 400px;
     width: 100%;
