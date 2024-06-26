@@ -8,8 +8,8 @@
 body{
     background-color: #fbf7f9;
 }
-p, h1{
-    color: #f83492;
+p, h1, h5{
+    color: #f83492 !important;
 }
 .carousel-img{
     height: 200px !important;
